@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@getmocha/users-service/react";
 import LoginPage from "@/react-app/pages/Login";
 import SignupPage from "@/react-app/pages/Signup";
